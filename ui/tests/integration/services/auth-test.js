@@ -119,7 +119,7 @@ let GITHUB_RESPONSE = {
   },
 };
 
-module('Unit | Service | auth', function(hooks) {
+module('Integration | Service | auth', function(hooks) {
   setupTest(hooks);
 
   hooks.beforeEach(function() {
